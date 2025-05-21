@@ -33,6 +33,53 @@
     ul {
       padding-left: 1.2rem;
     }
+    
+    /* Carousel for Images */
+    .carousel-container {
+      position: relative;
+      max-width: 700px;
+      margin: 2rem auto;
+      overflow: hidden;
+      border-radius: 12px;
+      border: 1px solid #ccc;
+    }
+
+    .carousel-slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 100%;
+    }
+
+    .carousel-slide {
+      min-width: 100%;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .carousel-slide img {
+      width: 100%;
+      display: block;
+    }
+
+    .carousel-buttons {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+      padding: 0 1rem;
+      box-sizing: border-box;
+    }
+
+    .carousel-buttons button {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border-radius: 6px;
+    }
   </style>
 </head>
 <body>
@@ -57,16 +104,25 @@
 
   <h1>User Interface</h1>
   <p>Below are some screenshots that demonstrate the user interface and application flow:</p>
-  <div class="gallery">
-    <img src="UI/Login.png" alt="Login Screen" />
-    <img src="UI/CreateAccount.png" alt="Create Account" />
-    <img src="UI/LogisticsScreen.png" alt="Logistics Screen" />
-    <img src="UI/Destination2.png" alt="Destination Screen 2" />
-    <img src="UI/Destinations.png" alt="Destinations" />
-    <img src="UI/DiningReservation.png" alt="Dining Reservation" />
-    <img src="UI/Accommodation.png" alt="Accommodation" />
-    <img src="UI/Travel Community.png" alt="Travel Community" />
+  
+  <!-- Carousel -->
+  <div class="carousel-container">
+    <div class="carousel-slides" id="carouselSlides">
+      <div class="carousel-slide"><img src="UI/Login.png" alt="Login Screen" /></div>
+      <div class="carousel-slide"><img src="UI/CreateAccount.png" alt="Create Account" /></div>
+      <div class="carousel-slide"><img src="UI/LogisticsScreen.png" alt="Logistics Screen" /></div>
+      <div class="carousel-slide"><img src="UI/Destination2.png" alt="Destination Screen 2" /></div>
+      <div class="carousel-slide"><img src="UI/Destinations.png" alt="Destinations" /></div>
+      <div class="carousel-slide"><img src="UI/DiningReservation.png" alt="Dining Reservation" /></div>
+      <div class="carousel-slide"><img src="UI/Accommodation.png" alt="Accommodation" /></div>
+      <div class="carousel-slide"><img src="UI/Travel Community.png" alt="Travel Community" /></div>
+    </div>
+    <div class="carousel-buttons">
+      <button onclick="prevSlide()">❮</button>
+      <button onclick="nextSlide()">❯</button>
+    </div>
   </div>
+
 
   <h1>Functionality</h1>
   <p>Below we have provided a video that demonstrates the app’s simple and intuitive functionality.</p>
