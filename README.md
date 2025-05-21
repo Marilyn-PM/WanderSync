@@ -17,11 +17,11 @@ Below are some screen shots that demonstarte the the user interface and applicat
   <img src="UI/DiningReservation.png" style="width: 30%;" />
   <img src="UI/Accommodation.png" style="width: 30%;" />
   <img src="UI/Travel Community.png" style="width: 30%;" />
-></div>
-# Functionlaity
+</div>
+<h1>Functionality</h1>
 Below we have provided a video that goes through the apps easy functionality.
-# Conclusion and Reflections
-# Contributors
+<h1>Conclusion and Reflections</h1>
+<h1>Contributors</h1>
 We acknowledge the efforts of all team members who contributed to the app's development:
 Catherine Burns
 Makenzy Butler
