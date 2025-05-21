@@ -8,6 +8,16 @@ The ViewModel layer manages the interactions with logic, handles user authentica
 The Model layer, is responsible for managing data interactions, including retrieving and storing data in Firebase (this is more of the backend of the software). With in this archeticture we used several diffrent design patterns to best accomplish our goals. We also made sure to follow SOLID and GRASP principlces, for future scaling and additions. 
 # User Interface
 Below are some screen shots that demonstarte the the user interface and application flow.
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="UI/Login.png" style="width: 30%;" />
+  <img src="UI/CreateAccount.png" style="width: 30%;" />
+  <img src="UI/LogisticsScreen.png" style="width: 30%;" />
+  <img src="UI/Destination2.png" style="width: 30%;" />
+  <img src="UI/Destination.png" style="width: 30%;" />
+  <img src="UI/DiningReservation.png" style="width: 30%;" />
+  <img src="UI/Accommodation.png" style="width: 30%;" />
+  <img src="UI/Travel Community.png" style="width: 30%;" />
+</div>
 # Functionlaity
 Below we have provided a video that goes through the apps easy functionality.
 # Conclusion and Reflections
