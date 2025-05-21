@@ -80,6 +80,11 @@
       cursor: pointer;
       border-radius: 6px;
     }
+
+    iframe {
+    display: block;
+    margin: 0 auto;
+    }
   </style>
 </head>
 <body>
@@ -128,11 +133,13 @@
   <p>Below we have provided a video that demonstrates the app’s simple and intuitive functionality.</p>
   <div class="carousel-slide">
    <iframe 
-    src="https://www.youtube.com/embed/fWkkANE_ONc" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/fWkkANE_ONc"
+    title="YouTube video player"
+    frameborder="0"
+    allowfullscreen
+    style="display: block; margin: 0 auto;"
     </iframe>
   </div>
   <h1>Conclusion and Reflections</h1>
