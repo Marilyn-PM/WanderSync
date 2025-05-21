@@ -1,4 +1,4 @@
-![Map Icon](Icon/wandersyncsplashpage.png)
+![Map Icon](Icon/wandersyncsplash.png)
 # Introduction
 WanderSync is a team project that aimed to ease the process of creating and managing travel itineraries for solo and group travel. This application makes the experience of travel seamless and efficient.
 # Design and Architecture
