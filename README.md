@@ -13,7 +13,7 @@ Below are some screen shots that demonstarte the the user interface and applicat
   <img src="UI/CreateAccount.png" style="width: 30%;" />
   <img src="UI/LogisticsScreen.png" style="width: 30%;" />
   <img src="UI/Destination2.png" style="width: 30%;" />
-  <img src="UI/Destination.png" style="width: 30%;" />
+  <img src="UI/Destinations.png" style="width: 30%;" />
   <img src="UI/DiningReservation.png" style="width: 30%;" />
   <img src="UI/Accommodation.png" style="width: 30%;" />
   <img src="UI/Travel Community.png" style="width: 30%;" />
