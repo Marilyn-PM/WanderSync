@@ -17,7 +17,7 @@ Below are some screen shots that demonstarte the the user interface and applicat
   <img src="UI/DiningReservation.png" style="width: 30%;" />
   <img src="UI/Accommodation.png" style="width: 30%;" />
   <img src="UI/Travel Community.png" style="width: 30%;" />
-</div>
+></div>
 # Functionlaity
 Below we have provided a video that goes through the apps easy functionality.
 # Conclusion and Reflections
